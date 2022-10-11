@@ -1,3 +1,5 @@
+## bare_api - using Pico Pi PIO USB
+
 This program will read the raw USB input from a PIO host and output text to the UART.   
 
 
