@@ -1,4 +1,4 @@
-## host_hid_to_device_cdc - PIO USB
+## host_hid_to_device_cdc - using Pico Pi PIO USB
 
 This example will run a USB device on the Pico Pi USB and a USB host on the PIOs (GPIO 2 and 3).
 
