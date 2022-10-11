@@ -35,6 +35,11 @@ Then edit the file ```src/tusb_config.h```
 /* USB DMA on some MCUs can only access a specific SRAM region with restriction on alignment.
 ```
 
+
+``` BOARD_TUH_RHPORT ``` sets the USB 'port' to 1 (internal port is 0, so this uses the PIO USB).   
+```CFG_TUH_RPI_PIO_USB ``` is the flag to show to use PIO USB.   
+
+
 And edit file ```CMakeLists.txt```   
 
 ```
