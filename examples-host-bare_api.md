@@ -51,6 +51,13 @@ target_compile_options(${PROJECT} PUBLIC
         -Wno-error=conversion
         -Wno-error=sign-compare
         -Wno-error=unused-function
+
+        -Wno-cast-qual
+        -Wno-cast-align
+        -Wno-sign-compare
+        -Wno-shadow
+        -Wno-redundant-decls
+        -Wno-unused-function
         )
 
 
